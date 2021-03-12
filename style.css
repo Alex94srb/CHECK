@@ -156,7 +156,6 @@ body {
 	margin-bottom: 30px;
 	border-radius: 20px;
 	/* flex-grow: 4;  */
-	width: 660px;
 	background-color: #F2F2F2;
 }
 
@@ -184,7 +183,15 @@ body {
 	display: flex;
   	flex-wrap: wrap;
 }
-
+#small-list-two{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	list-style-type: none!important;
+	display: flex;
+  	flex-direction: column;
+}
 
 
 /* Cards (rows and columsn) */
@@ -200,7 +207,23 @@ body {
   display: flex;
   flex-direction: column;
 }
+.small-cards-col{
+  background: white;
+  padding: 5px;
+  width: 350px;
+  height: 150px;
+  margin: 20px;
 
+  border-radius: 20px;
+
+  
+  line-height: 100px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+
+  
+}
 
 
 /* Small card row image container */
@@ -259,7 +282,23 @@ body {
 }
 
 
+/* Growth icon (second colomn list) */
+#growth-icon{
+	margin-top: 19.92px;
+	padding-top: 30px;
+	padding-right: 40px!important;
+	width: 35px;
+	height: 28px;
+	padding-left: 8px;
+	padding-right: 8px;
+    background-image: url(icones/growth-solid.png);
+    background-size: 28px; 
+	background-position: right;
+    background-repeat: no-repeat; 
+    background-position-x: 14px;
+    background-position-y: 30px;
 
+}
 
 
 
