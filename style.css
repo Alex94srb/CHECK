@@ -24,7 +24,7 @@ body {
 }
 .flexbox{
 	display: flex;
-	
+	  
 }
 
 
@@ -40,7 +40,7 @@ body {
 }
 .nav-active{
 	color: #0065FC;
-}
+}  
 
 
 
@@ -216,11 +216,15 @@ body {
 
   border-radius: 20px;
 
-  
-  line-height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  position: relative;
+  /* line-height: 100px;
   font-weight: bold;
   font-size: 2em;
-  text-align: center;
+  text-align: center; */
 
   
 }
@@ -282,6 +286,8 @@ body {
 }
 
 
+
+
 /* Growth icon (second colomn list) */
 #growth-icon{
 	margin-top: 19.92px;
@@ -300,6 +306,41 @@ body {
 
 }
 
+
+
+
+/* Small card col image container */
+.small-card-img-container-col {
+	width: 40%; 
+	height: 100%;
+	overflow: hidden;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	position: relative;
+}
+/* Small card col image  */
+.small-card-col-img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+/* Small card col text */
+.small-card-col-text{
+	width: 45%;
+	margin-bottom: 5px; 
+	margin-top: 0;
+	margin-left: -10px; 
+}
+/* Star rating in columns cards */
+.star-box-col{
+	position: absolute;
+	left: 46%;
+	bottom: 0;
+	margin-bottom: 10px;
+
+}
 
 
 
